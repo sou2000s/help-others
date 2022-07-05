@@ -2,3 +2,36 @@
     margin: 0;
     padding: 0;
 }
+body{
+font-family: 'Arima', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'Trispace', sans-serif;
+}
+/* header*/
+
+.header{
+    background-image: url(./images/donation13.jpg);
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-text{
+    color: rgb(254, 255, 252);
+    text-align: center;
+    padding-top: 12%;
+    font-size: 55px;
+}
+
+.header p{
+    font-size: 25px;
+}
+
+.header button{
+    color: brown;
+    background-color: rgb(247, 247, 120);
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 12px;
+}
