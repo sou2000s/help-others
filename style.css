@@ -42,6 +42,7 @@ font-family: 'Trispace', sans-serif;
 
 .donate-money{
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .donate-money h1{
@@ -92,4 +93,67 @@ color: rgb(255, 236, 236);
 padding: 15px;
 margin-top: 3%;
 border-radius: 10px;    
+}
+
+
+/*Donation plan*/
+
+
+.donate-plan-headding{
+    text-align: center;
+}
+
+.donate-plan-headding h1{
+    font-size: 55px;
+}
+
+.donate-plan-headding p{
+    font-size: 25px;
+}
+
+.cards{
+    justify-content: space-evenly;
+    display: flex;
+    margin-top: 5%;
+     
+}
+
+.food{
+    background-color: aqua;
+    width: 600px;
+    height: 300px;
+}
+.food-icon{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.food-text{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+
+.shelter{
+    background-color: blanchedalmond;
+}
+.shelter-icon{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.shelter-text{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.education{
+    background-color: rgb(232, 164, 164);
+}
+
+.education-icon{
+    margin-top: 5%;
+    margin-left: 5%;
+
+}
+.education-text{
+    margin-top: 5%;
+    margin-left: 5%;
 }
