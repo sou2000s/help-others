@@ -107,6 +107,7 @@ border-radius: 10px;
 
 .donate-plan-headding h1{
     font-size: 55px;
+    margin-bottom: 2.6%;
 }
 
 .donate-plan-headding p{
@@ -172,12 +173,12 @@ border-radius: 10px;
 }
 
 .join-us h1{
-    color: rgb(0, 0, 0);
+    color: rgb(244, 17, 17);
     font-size: 60px;
 }
 
 .join-us h3{
-    color: rgb(255, 255, 255);
+    color: rgb(255, 246, 246);
 }
 
 .join-us form{
@@ -191,7 +192,9 @@ border-radius: 10px;
    
 }
 .join-us form input{
-    height: 30px;
+    height: 40px;
+    
+
 }
 
 .join-us button{
@@ -200,5 +203,76 @@ border-radius: 10px;
     color: crimson;
     font-size: 20px;
     border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+/*update*/
+
+.update{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 55px;
+}
+
+.update-description{
+    padding-top: 15px;;
+    text-align: center;
+    font-size: 25px;
+}
+
+.subscribe-button{
+    width: 1000px;
+    background-color: burlywood;
+    margin-left: 22%;
+    margin-top: 25px;
+    height: 200px;
+    margin-bottom: 200px;
+
+}
+
+.subscribe-form-btn{
+    
+    display: flex;
+    padding-top: 7.5%;
+    padding-left: 28%;   
     
 }
+
+.subscribe-form-btn button{
+    background-color: rgb(234, 75, 75);
+    padding: 15px;
+    color: black;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border: none;
+}
+
+.subscribe-form-btn input{
+  width: 40%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-style: none; 
+  
+
+
+}
+
+/*footer*/
+
+footer{
+    height: 200px;
+    background-color: rgb(17, 4, 4);
+}
+
+footer h1{
+    color: aliceblue;
+    text-align: center;
+    padding: 25px;
+}
+
+footer p{
+    color: aliceblue;
+    text-align: center;
+    padding: 25px;
+}
+
