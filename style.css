@@ -97,7 +97,9 @@ border-radius: 10px;
 
 
 /*Donation plan*/
-
+.donate-plan{
+    margin-bottom: 85px;
+}
 
 .donate-plan-headding{
     text-align: center;
@@ -156,4 +158,47 @@ border-radius: 10px;
 .education-text{
     margin-top: 5%;
     margin-left: 5%;
+}
+
+/*join us*/
+
+.join-us{
+    text-align: center;
+    background-image: url(./images/donation5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.join-us h1{
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+}
+
+.join-us h3{
+    color: rgb(255, 255, 255);
+}
+
+.join-us form{
+   
+    display: flex;
+    flex-direction: column;
+   width: 50%;
+   margin-left: 25%;
+   margin-top: 5%;
+   
+   
+}
+.join-us form input{
+    height: 30px;
+}
+
+.join-us button{
+    padding: 15px;
+    background-color: antiquewhite;
+    color: crimson;
+    font-size: 20px;
+    border-radius: 10px;
+    
 }
