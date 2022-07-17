@@ -279,7 +279,7 @@ footer p{
 
 /* responsive */
 
-@media  screen and (max-width:576px) {
+/* @media  screen and (max-width:576px) {
     
     .header{
         width: 100%;
@@ -295,4 +295,83 @@ footer p{
     .header-text p{
         font-size: 10px;
     }
+} */
+
+@media screen and (max-width: 576px) {
+     *{
+        overflow-x: hidden ;
+        
+    }
+    .header {
+        width:100%;
+        overflow-x: hidden ;
+        
+       
+    }
+    .header-text button{
+        margin-left: 20px;
+    }
+    .header-text{
+        padding-top: 12%;
+        width: 50%;
+        margin-top: 31%;
+        margin-left: 20.5%;
+        
+    }
+    .header-text h1{
+        font-size: 25px;
+        
+
+    }
+    .header-text p{
+        font-size: 19px;
+        
+    
+    }
+    .donate-money{
+        width: 100%;
+    }
+    .donation-amount ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .food{
+        width: 200px;
+        margin-left: 22%;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+    .shelter{
+        width: 200px;
+        margin-left: 22%;
+        margin-bottom: 15px;
+    }
+    .education{
+        width: 200px;
+        margin-left: 22%;
+    }
+    
+    
+    .subscribe-button{
+        width: 150%;
+        margin-left: -22%;
+        margin-bottom: 25px;
+
+       
+    }
+    .subscribe-form-btn{
+       margin-top: 5%;
+    }
+    .donation-amount input::placeholder{
+        text-align: left;
+        font-size: 15px;    
+    }
+   footer{
+    height: auto;
+   }
 }
