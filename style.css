@@ -276,3 +276,23 @@ footer p{
     padding: 25px;
 }
 
+
+/* responsive */
+
+@media  screen and (max-width:576px) {
+    
+    .header{
+        width: 100%;
+    }
+    .header-text{
+        padding-top: 200px;
+    }
+    .header-text h1{
+       font-size: 15px;
+      
+    }
+
+    .header-text p{
+        font-size: 10px;
+    }
+}
